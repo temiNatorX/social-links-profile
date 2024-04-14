@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 8%);
+}
+
+.container{
+    width: 30%;
+    background: hsl(0, 0%, 12%);
+    margin: 5% auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img{
+    border-radius: 50%;
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: Inter;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.firstprg{
+    font-family: Inter;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.secondprg{
+    font-family: Inter;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+button{
+    font-family: Inter;
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+    color: white;
+    text-align: center;
+    border-radius:5px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+button:hover{
+    background: hsl(75, 94%, 57%);
+    color: black;
+}
